@@ -29,6 +29,12 @@
         android:layout_gravity="center"
         android:background="@drawable/edittext_border"
         android:hint="@string/password_hint"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_margin="30dp"
+        android:background="@color/blue"
+        android:text="@string/button_login"/>
 
 
 </LinearLayout>
