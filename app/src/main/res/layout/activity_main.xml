@@ -1,0 +1,34 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:src="@drawable/insta_logo"
+        />
+
+    <EditText
+        android:id="@+id/email_edit"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:background="@drawable/edittext_border"
+        android:hint="@string/email_hint"/>
+
+    <EditText
+        android:id="@+id/password_edit"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/edittext_border"
+        android:hint="@string/password_hint"/>
+
+
+</LinearLayout>

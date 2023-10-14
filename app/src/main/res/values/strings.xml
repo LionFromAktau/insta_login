@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">just_code_first_app</string>
+    <string name="email_hint">Phone number, email or username</string>
+    <string name="password_hint">Password</string>
+</resources>
